@@ -146,5 +146,28 @@ animation: rotation 8s infinite linear;
  }
 
  .footer-link:nth-child(2){
-    margin: 0 24px;
- }
+    margin: 0 24px;}
+
+    .dota-box{
+        height: calc(100vh - 112px);
+        background-image: url(pic/dota-big.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+
+    .fortnight-box{
+        height: calc(100vh - 112px);
+        background-image: url(pic/fortnite-big.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+
+    .gta-box{
+        height: calc(100vh - 112px);
+        background-image: url(pic/gta-big.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
