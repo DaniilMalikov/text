@@ -37,6 +37,20 @@ body{
     transition: 0.2s ease-in-out;
 }
 
+.dota-box, .fortnite-box, .gta-box {
+height: 100%;
+background-image: none;
+}
+
+.img-mobile{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-mobile img{
+    width: 450px;
+}
+
 .btn-purple:hover{
     background-color: #753dca;
 }
@@ -148,6 +162,10 @@ animation: rotation 8s infinite linear;
  .footer-link:nth-child(2){
     margin: 0 24px;}
 
+    .img-mobile img{
+        width: 350px;
+    }
+
     .dota-box{
         height: calc(100vh - 112px);
         background-image: url(pic/dota-big.png);
@@ -171,3 +189,33 @@ animation: rotation 8s infinite linear;
         background-position: bottom right;
         background-size: contain;
     }
+
+    .gaallery, .articles{
+        background-color: bisque;
+    }
+
+    .swiper{
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide{
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        background: transparent;
+        display: flex;
+        align-items: center
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-slide{
+        width: 80%;
+    }
+
